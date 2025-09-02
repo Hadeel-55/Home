@@ -3,10 +3,208 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
-    <h2>hello</h2> 
-     
+  
+        <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark  bg-dark shadow-sm fixed-top ">
+        <div class="container">
+
+            <a href="#" class="navbar-brand"><img src="./img/logo.png" alt=""></a>
+            <button type="button" class="navbar-toggler " data-bs-toggle="collapse"
+                data-bs-target="#NavbarNav">MENU<span class="navbar-toggler-icon ms-1"></span></button>
+            <div class="collapse navbar-collapse justify-content-end " id="NavbarNav">
+                <ul class="navbar-nav">
+                    <li class="ms-3  nav-item"><a href="./index.html" class="nav-link colorw hover fw-bolder">Home</a></li>
+                    <li class="ms-3  nav-item"><a href="./searchResults.html" class="nav-link colorw hover fw-bolder">Search Reults</a>
+                    </li>
+                    <li class="ms-3  nav-item"><a href="./categorise.html" class="nav-link colorw hover fw-bolder">Categories</a></li>
+                    <li class="ms-3  nav-item"><a href="./singleProperty.html" class="nav-link colorw hover fw-bolder">Single Property</a>
+                    </li>
+                    <li class="ms-3  nav-item"><a href="./blog.html" class="nav-link colorw hover fw-bolder">Blog</a></li>
+                    <li class="ms-3  nav-item"><a href="./contact.html" class="nav-link colorw hover fw-bolder">Contatct</a></li>
+
+                </ul>
+
+
+            </div>
+
+            <div class="collapse navbar-collapse justify-content-end" id="NavbarNav">
+                <a href="#"><i class=" hover ms-3 nav-link colorw fa-brands fa-pinterest"></i></a>
+                <a href="#"><i class=" hover ms-3 nav-link  colorw fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class=" hover ms-3 nav-link  colorw fa-brands fa-twitter"></i></a>
+                <a href="#"><i class=" hover ms-3 nav-link colorw fa-brands fa-dribbble"></i></a>
+                <a href="#"><i class=" hover ms-3 nav-link  colorw fa-brands fa-behance"></i></a>
+            </div>
+
+
+        </div>
+    </nav>
+
+    <!-- end navbar -->
+
+    <!-- header -->
+
+    <div style="position: relative;height: 600px; width: 100%;
+          display: inline-block;
+          background-image: url(./img/bg.jpg); background-size: cover;
+          background-position: center;">
+
+        <div style="
+                    position: absolute;
+                    top: 0; left: 0;
+                    width: 100%; height: 100%;
+                    background: rgba(10, 25, 80, 0.5); 
+                 ">
+            <div class="card-img-overlay d-flex flex-column justify-cntent-center align-items-center ">
+                <h3 style="height: 600px; font-size: 50px; "
+                    class="cart-title d-flex  align-items-end text-white fw-light">Find your next <br>
+                    <h1 style="height: 600px; font-size: 60px; " class="text-white card-title d-flex fw-normal ">dream
+                        home</h1>
+                </h3>
+<br> <br>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="mt-5 pt-5 ">
+             <div class="col-lg-12 col-12 mt-5 pt-5">
+                 <div class="position-relative">
+
+                    <div class="row justify-content-center  position-absolute translate-middle start-50 w-100 ">
+                                    <div class="col-lg-2 col-10  bg-white pt-5 rounded-start">
+                                        <label for="" class="text-muted">Location</label>
+                                        <div class="dropdown">
+                                            <button type="button" class="
+                                                btn
+                                                 border-bottom
+                                                 w-100
+                                                 
+                                                 " data-bs-toggle="dropdown">London
+                                                <i class="fa-solid fa-caret-down ms-5 ps-5"></i>
+
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#" class="dropdown-item ">London</a></li>
+                                                <li><a href="#" class="dropdown-item">US</a></li>
+                                                <li><a href="#" class="dropdown-item">UAR</a></li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-10  bg-white pt-5 ">
+                                        <label for="" class="text-muted">Property Type</label>
+                                        <div class="dropdown">
+                                            <button type="button" class="
+                                                btn
+                                                 border-bottom
+                                                 w-100
+                                                 
+                                                 " data-bs-toggle="dropdown">House
+                                                <i class="fa-solid fa-caret-down ms-5 ps-5"></i>
+
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#" class="dropdown-item ">House</a></li>
+                                                <li><a href="#" class="dropdown-item">Resort</a></li>
+                                                <li><a href="#" class="dropdown-item">Hotel</a></li>
+                                            </ul>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-2 col-10  bg-white pt-5">
+                                        <label for="" class="text-muted">Price</label>
+                                        <div class="progress mt-4 " style="height: 2px;">
+                                            <div class="progress-bar" role="progressbar" style="width: 0%;">
+
+                                            </div>
+                                        </div>
+                                        <div class="position-relative p-2 ms-2 me-2">
+                                            <button
+                                                class="position-absolute top-0 start-0 translate-middle btn btn-sm btn-dark ">50K</button>
+                                            <button
+                                                class="position-absolute top-0 start-100 translate-middle btn btn-sm btn-dark ">300K</button>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="col-lg-2 col-10  bg-white pt-5">
+                                        <label for="" class="text-muted">Bedrooms</label> <br>
+                                        <div class="pt-2">
+                                            <button class="btn  btn-sm text-white"
+                                                style="background-color: var(--hover-color);">1</button>
+                                            <button class="btn btn-secondary btn-sm">2</button>
+                                            <button class="btn btn-secondary btn-sm">3</button>
+                                            <button class="btn btn-secondary btn-sm">4+</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-10  bg-white pt-5">
+                                        <label for="" class="text-muted">Bedrooms</label> <br>
+                                        <div class="pt-2">
+                                            <button class="btn  btn-sm text-white"
+                                                style="background-color: var(--hover-color);">1</button>
+                                            <button class="btn btn-secondary btn-sm">2</button>
+                                            <button class="btn btn-secondary btn-sm">3</button>
+                                            <button class="btn btn-secondary btn-sm">4+</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-10 pt-5   rounded-end" style="background-color: var(--hover-color); ">
+
+
+                                        <div class="fw-bold fs-5 text-center text-lg-start "
+                                            ><i
+                                                class="fa-solid fa-magnifying-glass mt-3 pb-5  "></i> Search
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+             </div>
+        </div>
+
+      </div>
+      
+    </div>
+</div>
+
+             
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+    <!-- end header -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
 </body>
 </html>
