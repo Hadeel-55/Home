@@ -1,0 +1,55 @@
+:root{
+    --hover-color:#8AD144;
+}
+
+
+
+.hover:hover{
+    color:#8AD144;
+      text-shadow: 5px 5px 20px #c0d8a7;
+}
+
+.colorw{
+    color: white;
+  
+}
+
+.colorG:hover{
+    background-color: #8AD144;
+    color: white;
+}
+.colorG:hover .colorgw{
+    color: white;
+}
+
+.colorbtn{
+    color: grey;
+}
+
+.carsouselC{
+    background-color: #8AD144;
+    
+
+}
+
+input:focus  {
+    border: 2px solid green !important; 
+    outline: none !important;
+    box-shadow: 3px 3px 10px green !important;
+}
+
+.iconClor{
+    color: white;
+}
+
+
+.caro{
+    background-color: #54a304;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+
+
+    
